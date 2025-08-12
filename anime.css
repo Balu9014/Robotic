@@ -1,0 +1,272 @@
+#robot{
+    display: flex;
+    justify-content: space-around;
+     
+    
+    
+      
+    
+  }
+  body{
+      display: flex;
+      justify-content: center;
+      margin-top: -0px;
+      background-color:rgb(4, 9, 10);
+      animation-name: box;
+    animation-duration: 1s;
+    animation-iteration-count: 1000;
+    animation-delay:1s;
+  
+  
+  }
+  #face{
+      height: 200px;
+      width: 200px;
+      background-color: rgb(248, 248, 236);
+      border-radius: 40%;
+      margin-top:40px;
+      margin-left: -80px;
+      box-shadow: 10px 0px 35px #4d02d8;
+      animation-name: wave2;
+      
+    animation-duration: 1s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;animation-name: box;
+    animation-duration: 1s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;
+  
+  
+  }
+  #eyes{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 60px;
+  }
+  
+  #eyes1{
+      background-color:rgb(24, 3, 3);
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      animation-name: box;
+    animation-duration: 1s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;
+  
+  }
+  
+  #eyes2{
+      background-color:hsl(0, 0%, 0%);
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      animation-name: box;
+    animation-duration: 1s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;
+  
+  }
+  
+  #iris1{
+      background-color:rgb(255, 255, 255);
+      height: 20px;
+      width: 15px;
+      border-radius: 50%;
+      margin-top: 12px;
+      margin-left: 10px;
+      animation-name: e1;
+    animation-duration: 5s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;
+  
+  }
+  
+  #iris2{
+      background-color:rgb(255, 255, 255);
+      height: 20px;
+      width: 15px;
+      border-radius: 50%;
+      margin-top: 12px;
+      margin-left: 10px;
+      animation-name: e1;
+    animation-duration: 5s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;
+  
+  }
+  #mouth{
+      height: 30px;
+      width: 80px;
+      background-color: #aa1a1a;
+      border-radius: 0% 0% 50% 50%;
+      margin-left: 60px;
+      animation-name: box;
+    animation-duration: 1s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;
+  
+  }
+  #tongue{
+      height: 60px;
+      width: 50px;
+      background-color: rgb(255, 0, 34);
+      border-radius: 0% 0% 50% 50%;
+      margin-top: 40px;
+      margin-left: 15px;
+      animation-name: tt;
+    animation-duration: 1s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;
+  
+  }
+  
+      
+  
+  #hand1{
+      height: 250px;
+      width: 60px;
+      background-color: rgb(175, 11, 167);
+      border-radius: 30% 30% 50% 50%;
+      margin-top: 250px;
+      margin-left:-245px;
+      animation-name: wave2;
+    animation-duration: 1s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;
+    
+    
+  
+  }
+  #hand2{
+      height: 250px;
+      width: 60px;
+  
+      background-color: rgb(0, 0, 0);
+      border-radius: 30% 30% 50% 50%;
+      margin-top: 253px;
+      margin-left:165px;
+      animation-name: wave1;
+      
+    animation-duration: 1s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;
+      
+  }
+  
+  #stomach{
+      
+      
+       height:300px;
+      width: 160px;
+      border-radius: 20%;
+      background-color:yellow;
+      margin-top: 250px;
+      margin-left: -225px;
+      animation-name: waev2;
+      
+     animation-duration: 1s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;
+      
+  }
+  #leg1{
+   height: 250px;
+      width: 50px;
+      background-color: gold;
+      border-radius: 20% 20% 50% 50%;
+      margin-top: 550px;
+      margin-left: -58px;
+      animation-name: leg2;
+      
+    animation-duration: 1s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;
+      
+  }
+  #leg2{
+   height: 250px;
+      width: 50px;
+      background-color: rgb(255, 218, 7);
+      border-radius: 20% 20% 50% 50%;
+      margin-top: 550px;
+      margin-left: -145px;
+      animation-name: leg1;
+      
+    animation-duration: 1s;
+    animation-iteration-count: 1000;
+    animation-delay:3s;
+      
+  }
+  @keyframes tt{
+      from{height:5px;}
+      to{height:55px}
+  }
+  
+  
+  @keyframes box {
+    0% {background-color: red;}
+    10%{background-color: yellow;}
+    20%{background-color: green;}
+    30%{background-color: orange;}
+    40%{background-color: black;}
+    50%{background-color: pink;}
+    60%{background-color: white;}
+    70%{background-color: purple;}
+    80%{background-color: grey;}
+    90%{background-color: blue;}
+    100%{background-color:brown;}
+  }
+  @keyframes e1{
+     0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+  
+  @keyframes wave2 {
+       0%{transform: rotate(0deg);}
+      25%{transform: rotate(-5deg);}
+      50%{transform: rotate(25deg);}
+      100%{transform: rotate(0deg);}
+      0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  
+  
+  } 
+  @keyframes wave1 {
+      0%{transform: rotate(0deg);}
+      25%{transform: rotate(5deg);}
+      50%{transform: rotate(-25deg);}
+      100%{transform: rotate(0deg);}
+  
+  } 
+  @keyframes leg1 {
+       0%{transform: rotate(0deg);}
+      25%{transform: rotate(5deg);}
+      50%{transform: rotate(-25deg);}
+      100%{transform: rotate(0deg);}
+  
+  } @keyframes leg2 {
+       0%{transform: rotate(0deg);}
+      25%{transform: rotate(-0deg);}
+      50%{transform: rotate(25deg);}
+      100%{transform: rotate(0deg);}
+  
+  }  
+  
+  #robot {
+    position: relative; 
+    animation: moveUpDown 2s ease-in-out infinite;
+  }
+  
+  @keyframes moveUpDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(200px); } 
+    100% { transform: translateY(-200); }  
+  }
